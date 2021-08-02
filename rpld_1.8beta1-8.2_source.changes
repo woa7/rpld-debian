@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Mon, 02 Aug 2021 20:32:45 +0200
+Source: rpld
+Architecture: source
+Version: 1.8beta1-8.2
+Distribution: UNRELEASED
+Urgency: medium
+Maintainer: Jonas Smedegaard <dr@jones.dk>
+Changed-By: Wolfgang Anger <7572779+woa7@users.noreply.github.com>
+Changes:
+ rpld (1.8beta1-8.2) UNRELEASED; urgency=medium
+ .
+   * Non-maintainer upload.
+   * Add $RPLD_OPTIONS to init.d scripts
+   * Migrate to 3.0 (quilt) format.
+   * Drop build-dep on patchutils
+   * Add ${misc:Depends} for debhelper https://lintian.debian.org/tags/debhelper-but-no-misc-depends
+   * Raise to compat version 10 (no changes needed)
+   * Raise to standards version 4.5.1 (no changes needed)
+Checksums-Sha1:
+ c7ab4dfe63a9c646a8b58b77d90e954ed6780ef3 793 rpld_1.8beta1-8.2.dsc
+ d5f47c10e2c0fc24748cc2c3f60f0d8864991bd1 5960 rpld_1.8beta1-8.2.debian.tar.xz
+Checksums-Sha256:
+ 1bf4b922677e80429051b788f18e53d0dfafada788338057e56897c06b8562ab 793 rpld_1.8beta1-8.2.dsc
+ fc7408c570810bb45eef88383f886f7cd7f353dfb82b7db8f289392d30becf91 5960 rpld_1.8beta1-8.2.debian.tar.xz
+Files:
+ 6f73366f3da29997d4c538c3197b53f5 793 net optional rpld_1.8beta1-8.2.dsc
+ 9c3861cfa4afc536918bc73b7640c7d7 5960 net optional rpld_1.8beta1-8.2.debian.tar.xz
